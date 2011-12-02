@@ -47,26 +47,27 @@ return array(
 			),
 		),
 		
-		/*'db'=>array(
+		'db1'=>array(
 			'connectionString' => 'sqlite:'.dirname(__FILE__).'/../data/testdrive.db',
 		),
 		// uncomment the following to use a MySQL database
 		
-		'db'=>array(
+		'db2'=>array(
 			'connectionString' => 'mysql:host=localhost;dbname=testdrive',
 			'emulatePrepare' => true,
 			'username' => 'root',
 			'password' => '',
 			'charset' => 'utf8',
 		),
-		*/
+		
 		'db'=>array(
-			'connectionString' => 'pgsql:host=localhost;port=5432;dbname=freerisk_erpscan',
+			'connectionString' => 'pgsql:host=localhost;port=5432;dbname=scanerp',
 			'emulatePrepare' => true,
 			'username' => 'postgres',
 			'password' => 'postgres',
 			'charset' => 'utf8',
 		),
+            
 		'errorHandler'=>array(
 			// use 'site/error' action to display errors
             'errorAction'=>'site/error',
