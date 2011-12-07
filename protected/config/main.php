@@ -61,10 +61,10 @@ return array(
 		),
 		
 		'db'=>array(
-			'connectionString' => 'pgsql:host=localhost;port=5432;dbname=scanerp',
+			'connectionString' => 'pgsql:host=localhost;port=5432;dbname=erp',
 			'emulatePrepare' => true,
 			'username' => 'postgres',
-			'password' => 'postgres',
+			'password' => '150111',
 			'charset' => 'utf8',
 		),
             
