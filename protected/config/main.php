@@ -19,6 +19,7 @@ return array(
 	),
 
 	'modules'=>array(
+            'contabilidad',
 		// uncomment the following to enable the Gii tool
 		/*
 		'gii'=>array(
@@ -61,7 +62,7 @@ return array(
 		),
 		
 		'db'=>array(
-			'connectionString' => 'pgsql:host=127.0.0.1;port=5432;dbname=erp',
+			'connectionString' => 'pgsql:host=localhost;port=5432;dbname=erp',
 			'emulatePrepare' => true,
 			'username' => 'postgres',
 			'password' => '150111',
